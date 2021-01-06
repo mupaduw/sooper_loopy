@@ -1,6 +1,11 @@
 
-"""Small example OSC client
+"""
+Small example OSC client
 This program does some basic interactions with sooperlooper. 
+
+see also:
+ - https://github.com/lucmazon/touchosc-sooperlooper-converter/blob/master/converter.py
+ - https://github.com/attwad/python-osc/blob/master/examples/simple_2way.py
 """
 import argparse
 import random
@@ -72,6 +77,6 @@ if __name__ == "__main__":
 
     #set master volume
     # ref https://stackoverflow.com/a/31598914
-    db = -0.0
+    db = -10.0
     slval = 10 ** (db/20)
     client.send_message("/set", ["wet", slval])
