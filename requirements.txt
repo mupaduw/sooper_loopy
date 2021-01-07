@@ -1,3 +1,4 @@
 git+ssh://git@github.com/mupaduw/mididings.git@cd706eed0d37f86477caf0c8da4808b2dea32246#egg=mididings
 git+ssh://git@github.com/mupaduw/kaos_kontrol#egg=kaos_kontrol
+git+ssh://git@github.com/mupaduw/novation_sl_mk2.git#egg=novation_sl_mk2
 python-osc
